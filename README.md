@@ -1,6 +1,6 @@
 # Swag Labs Automated Testing Suite
 
-This repository contains the software test documentation and automated test scripts developed for the Swag Labs e-commerce platform (`https://www.saucedemo.com`)[cite: 1].
+This repository contains the software test documentation and automated test scripts developed for the Swag Labs e-commerce platform (`https://www.saucedemo.com`)
 
 ## Project Deliverables
 1. **Automated Test Scripts (Python & Selenium):**

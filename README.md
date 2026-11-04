@@ -19,6 +19,8 @@ Ensure you have the following installed on your local machine:
 * Python (v3.x or higher)
 * Google Chrome browser
 * Selenium and PyTest libraries
+
+  
 1.Install the required dependencies:
  pip install selenium pytest
 2.To run the Valid Login & Checkout E2E test

@@ -22,10 +22,16 @@ Ensure you have the following installed on your local machine:
 
   
 1.Install the required dependencies:
+
  pip install selenium pytest
+ 
 2.To run the Valid Login & Checkout E2E test
+
   python valid_login.py
+  
 3.To run the Negative Test (Locked-out user error validation):
+
   python invalid_login.py
+  
 
   

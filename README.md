@@ -4,8 +4,8 @@ This repository contains the software test documentation and automated test scri
 
 ## Project Deliverables
 1. **Automated Test Scripts (Python & Selenium):**
-   * **Valid Login & E2E Checkout Flow (`valid_login.py`):** Automates user login, adding an item ("Sauce Labs Bolt T-Shirt") to the cart, navigating through the cart, completing the checkout information form, and finishing the order[cite: 1].
-   * **Negative Testing / Locked-out User Flow (`invalid_login.py`):** Validates the system error message handling when attempting to log in using a locked-out user account[cite: 1].
+   * **Valid Login & E2E Checkout Flow (`valid_login.py`):** Automates user login, adding an item ("Sauce Labs Bolt T-Shirt") to the cart, navigating through the cart, completing the checkout information form, and finishing the order.
+   * **Negative Testing / Locked-out User Flow (`invalid_login.py`):** Validates the system error message handling when attempting to log in using a locked-out user account.
 
 ## Tech Stack
 * **Language:** Python
@@ -32,6 +32,6 @@ Ensure you have the following installed on your local machine:
 3.To run the Negative Test (Locked-out user error validation):
 
   python invalid_login.py
-  
+BUG REPORT-https://docs.google.com/spreadsheets/d/1ukgGLsuTuapf94kK3E_Ohl7SZObiMokLZdUFV1iqPZg/edit?usp=sharing
 
   

@@ -50,12 +50,13 @@ def login_and_checkout():
         first_name_field = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.ID, "first-name"))
         )
-        first_name_field.send_keys("siri")
+        first_name_field.send_keys("Anushika")
         
-        driver.find_element(By.ID, "last-name").send_keys("sudu")
-        driver.find_element(By.ID, "postal-code").send_keys("60280")
+        driver.find_element(By.ID, "last-name").send_keys("Imanshika")
+        driver.find_element(By.ID, "postal-code").send_keys("60281")
         
         # Click  Continue button
+
         continue_btn = driver.find_element(By.ID, "continue")
         driver.execute_script("arguments[0].click();", continue_btn)
         
